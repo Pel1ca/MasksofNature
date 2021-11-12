@@ -8,7 +8,7 @@ public class loadWaterfall : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.name == "Player"){
             Debug.Log("Tried to enter waterfall");
-            SceneManager.LoadScene("WaterCity1");
+            SceneManager.LoadScene("Waterfall1");
         }
     }
 }
