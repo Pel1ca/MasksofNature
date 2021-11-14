@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+/*
 public class loadWaterfall : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other) {
@@ -12,3 +12,4 @@ public class loadWaterfall : MonoBehaviour
         }
     }
 }
+*/
