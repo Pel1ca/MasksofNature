@@ -12677,7 +12677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe32799a3ee18b648a5190cdeb3cea9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7.5
+  moveSpeed: 5
   rb: {fileID: 1429827567}
   animator: {fileID: 1429827565}
   startingPosition: {fileID: 11400000, guid: b539db088c5a1774aa7e2ebfd8622b70, type: 2}
