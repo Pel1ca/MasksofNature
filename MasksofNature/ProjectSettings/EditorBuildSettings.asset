@@ -35,4 +35,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WaterOrb1.unity
     guid: c5f8d213644bcdc49b2119b459c90134
+  - enabled: 1
+    path: Assets/Scenes/WaterCity2.6.unity
+    guid: e8698d583ee7066439608b545b420a9f
+  - enabled: 1
+    path: Assets/Scenes/WaterCity2.7.unity
+    guid: 3b4538c96f8873240beb9c0494b90c0c
+  - enabled: 1
+    path: Assets/Scenes/WaterCity2.5.unity
+    guid: 51ed9b9424aceff42b659ee78670cca7
+  - enabled: 1
+    path: Assets/Scenes/WaterOrb2.unity
+    guid: e1f923bb58b85804aa8ab6ebdbdc6cba
   m_configObjects: {}

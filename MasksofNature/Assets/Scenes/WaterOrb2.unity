@@ -193,15 +193,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Congratulations
+  m_Text: 'You have left the
 
-    You''ve saved the City of Water
+    City of Water
 
 
-    Thank you for
-    playing the Demo of
+    Here you''d explore other cities
 
-    Masks of Nature'
+    but
+    this is a demo'
 --- !u!222 &827108318
 CanvasRenderer:
   m_ObjectHideFlags: 0
