@@ -10,12 +10,13 @@ public class SceneTransition : MonoBehaviour
     public Vector2 playerPosition;
     public VectorValue playerStorage;
 
-    public Animator transition;
+    //public Animator transition;
     public float transitionTime = 1f;
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player") && !other.isTrigger)
+        Debug.Log("ER");
+        if(other.CompareTag("Player")/* && !other.isTrigger*/)
         {
             playerStorage.initialValue = playerPosition;  
             StartCoroutine(LoadLevel());
@@ -27,7 +28,7 @@ public class SceneTransition : MonoBehaviour
     IEnumerator LoadLevel()
     {
         //Play animation
-        transition.SetTrigger("Start");
+        //transition.SetTrigger("Start");
 
         //Whait
         yield return new WaitForSeconds(transitionTime);

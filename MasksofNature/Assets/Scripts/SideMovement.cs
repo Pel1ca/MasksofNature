@@ -8,6 +8,12 @@ public class SideMovement : MonoBehaviour
     private Rigidbody2D body;
     private Animator anim;
     private BoxCollider2D boxCollider;
+    public VectorValue startingPosition;
+
+    void Start(){
+
+        transform.position = startingPosition.initialValue;
+    }
 
     private void Awake()
     {
